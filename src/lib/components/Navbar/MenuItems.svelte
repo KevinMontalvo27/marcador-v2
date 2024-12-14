@@ -1,5 +1,5 @@
 <script>
-	import { Trophy, Volleyball, FolderKanban } from 'lucide-svelte';
+	import { Trophy, Volleyball, FolderKanban, User } from 'lucide-svelte';
 </script>
 
 <aside class="prose">
@@ -15,9 +15,13 @@
 					<Trophy />
 					Torneos
 				</a>
-				<a href="../dashboard/equipos" class="transition-colors hover:text-blue-500">
+				<a href="dashboard/equipos" class="transition-colors hover:text-blue-500">
 					<FolderKanban/>
 					Equipos
+				</a>
+				<a href="dashboard/jugadores" class="transition-colors hover:text-blue-500">
+					<User/>
+					Jugadores
 				</a>
 			</li>
 		</ul>

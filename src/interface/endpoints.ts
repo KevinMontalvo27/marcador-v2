@@ -23,7 +23,7 @@ export interface Equipos{
 
 export interface Jugadores{
     id: number;
-    equipoID: number;
+    equipo: string;
     nombre: string;
     dorsal: number;
     posicion: string;
